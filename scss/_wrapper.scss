@@ -1,0 +1,13 @@
+//Wrapper
+
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.wrapper {
+    max-width: 800px;
+    background-color: $bgColorWrapper;
+}
+
+img {
+    @include mc(true);
+}

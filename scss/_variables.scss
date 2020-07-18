@@ -2,9 +2,15 @@
 //Main Site Variables
 
 //Colors
-$brandColor: orange;
+$brandColor:orange;
+//Variations of brand color
+//use Sass color functions
+$brandColorLight:lighten($brandColor,20);
+$brandColorDark:darken($brandColor, 20);
+//BG colors
+$bgColorWrapper:lightgrey;
 $bgColorBody: lightgrey;
-$bgColorWrapper: white;
+
 //Text Colors
 $textColorLight: white;
 $textColorDark: black;
@@ -18,3 +24,5 @@ $lineHeight:1.4;
 $pad: 30px;
 $gutter: 2; 
 
+//Hover State Variable
+$hover: '&:hover, &:focus, &:active';
