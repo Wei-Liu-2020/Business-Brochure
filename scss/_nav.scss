@@ -1,4 +1,5 @@
 //Nav
+
 @use 'variables' as *;
 @use 'mixins' as *;
 
@@ -9,6 +10,11 @@ nav{
     $border: 5px solid orange;
 
     background-color: $brandColorDark;
+    display: none;
+
+    .show &{
+        display: block;
+    }
 
     ul{
       @include flatten($isList: true);
@@ -33,3 +39,4 @@ nav{
     }
 
 }
+

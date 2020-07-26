@@ -26,3 +26,12 @@ $gutter: 2;
 
 //Hover State Variable
 $hover: '&:hover, &:focus, &:active';
+
+//Utility function for coverting PC to EMs
+@function em($px, $bc: 16){
+    @return #{$px/$bc}em;
+}
+
+//Media Query Backpoints
+$tabletSmall: em(640);
+$desktopLarg: em(1200);

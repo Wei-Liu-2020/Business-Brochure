@@ -1,5 +1,8 @@
 //Mixins
 
+
+
+
 //MC
 //Center an element horizontally using
 //margin auto..
@@ -29,4 +32,12 @@
        list-style: none;
        padding: 0;
     }
+}
+
+//Media Query Mixin
+@mixin mq($w){
+    @media (min-width: $w){
+        @content;
+    }
+
 }
