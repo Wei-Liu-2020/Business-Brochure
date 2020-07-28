@@ -8,8 +8,9 @@
     background-color: $bgColorWrapper;
     @include mc;
     
-    @include mq($tabletSmall){
-        background-color: lightgrey;
+    
+    @include mq($desktopLarg){
+        background-color: $bgColorWrapper;
     }
 }
 

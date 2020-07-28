@@ -5,8 +5,12 @@
 $brandColor:orange;
 //Variations of brand color
 //use Sass color functions
+
+
 $brandColorLight:lighten($brandColor,20);
 $brandColorDark:darken($brandColor, 20);
+
+
 //BG colors
 $bgColorWrapper:lightgrey;
 $bgColorBody: lightgrey;
@@ -33,5 +37,5 @@ $hover: '&:hover, &:focus, &:active';
 }
 
 //Media Query Backpoints
-$tabletSmall: em(640);
+
 $desktopLarg: em(1200);

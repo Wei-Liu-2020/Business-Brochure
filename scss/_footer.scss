@@ -1,0 +1,9 @@
+@use 'variables' as *;
+@use 'mixins' as *; 
+
+
+footer {
+    background-color: $brandColor;
+    margin: 0 auto;
+    padding: 0;
+}
