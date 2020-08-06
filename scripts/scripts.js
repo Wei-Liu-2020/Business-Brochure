@@ -8,6 +8,7 @@ btnMenu.addEventListener('click',function(e){
 });
 
 //Show/Hide menu section script
+//fade-in fade-out effect to be added
 document.getElementById("taco-title").addEventListener("click", toggleTacos);
 document.getElementById("starter-title").addEventListener("click", toggleStarters);
 document.getElementById("vegan-title").addEventListener("click", toggleVegans);
