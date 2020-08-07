@@ -13,41 +13,30 @@ document.getElementById("taco-title").addEventListener("click", toggleTacos);
 document.getElementById("starter-title").addEventListener("click", toggleStarters);
 document.getElementById("vegan-title").addEventListener("click", toggleVegans);
 document.getElementById("burrito-title").addEventListener("click", toggleBurritos);
-document.getElementById("drink-title").addEventListener("click", toggleDrinks);
 
 function toggleTacos(){
    document.getElementById("taco-section").style.display = "flex";
    document.getElementById("starter-section").style.display = "none";
    document.getElementById("vegan-section").style.display = "none";
    document.getElementById("burrito-section").style.display = "none";
-   document.getElementById("drink-section").style.display = "none";
 }
 function toggleStarters(){
    document.getElementById("taco-section").style.display = "none";
    document.getElementById("starter-section").style.display = "flex";
    document.getElementById("vegan-section").style.display = "none";
    document.getElementById("burrito-section").style.display = "none";
-   document.getElementById("drink-section").style.display = "none";
 }
 function toggleVegans(){
    document.getElementById("taco-section").style.display = "none";
    document.getElementById("starter-section").style.display = "none";
    document.getElementById("vegan-section").style.display = "flex";
    document.getElementById("burrito-section").style.display = "none";
-   document.getElementById("drink-section").style.display = "none";
 }
 function toggleBurritos(){
    document.getElementById("taco-section").style.display = "none";
    document.getElementById("starter-section").style.display = "none";
    document.getElementById("vegan-section").style.display = "none";
    document.getElementById("burrito-section").style.display = "flex";
-   document.getElementById("drink-section").style.display = "none";
 }
-function toggleDrinks(){
-   document.getElementById("taco-section").style.display = "none";
-   document.getElementById("starter-section").style.display = "none";
-   document.getElementById("vegan-section").style.display = "none";
-   document.getElementById("burrito-section").style.display = "none";
-   document.getElementById("drink-section").style.display = "flex";
-}
+
 document.getElementById("starter-title").click();
