@@ -8,10 +8,6 @@
     background-color: $bgColorWrapper;
     @include mc;
     
-    
-    @include mq($desktopLarg){
-        background-color: $bgColorWrapper;
-    }
 }
 
 

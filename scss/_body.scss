@@ -15,6 +15,26 @@ body{
 
 
 //menu page//
-.vegans, .tacos, .burritos, .drinks {
+.category-section {
     display: none;
-}//layout needs to be adjusted
+    justify-content: space-evenly;
+    text-align: center;
+}
+.menu-category {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 0 !important;
+    
+}
+.menu-category a {
+    text-decoration: none;
+}
+.category-title {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: -5px;
+}
+//layout needs to be adjusted
