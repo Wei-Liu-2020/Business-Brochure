@@ -36,6 +36,7 @@ $hover: '&:hover, &:focus, &:active';
     @return #{$px/$bc}em;
 }
 
-//Media Query Backpoints
-
-$desktopLarg: em(1200);
+//media queries//
+//mobile-small:320px; 
+$tablet: 700px;
+$desktop:1920px;
