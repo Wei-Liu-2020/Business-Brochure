@@ -50,3 +50,4 @@ function toggleDrinks(){
    document.getElementById("burrito-section").style.display = "none";
    document.getElementById("drink-section").style.display = "flex";
 }
+document.getElementById("starter-title").click();
