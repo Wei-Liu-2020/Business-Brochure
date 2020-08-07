@@ -17,6 +17,7 @@ body{
 //menu page//
 .category-section {
     display: none;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
 }
@@ -36,5 +37,10 @@ body{
     writing-mode: vertical-rl;
     text-orientation: upright;
     letter-spacing: -5px;
+}
+@media (min-width: $tablet) {
+    .category-section{
+        flex-wrap: nowrap;
+    }
 }
 //layout needs to be adjusted
