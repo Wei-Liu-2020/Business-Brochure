@@ -18,14 +18,15 @@ body{
 .category-section {
     display: none;
     justify-content: space-evenly;
+    text-align: center;
 }
 .menu-category {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    padding: none!important;
     font-size: 1.5em;
     font-weight: bold;
+    padding-left: 0 !important;
     
 }
 .menu-category a {
