@@ -49,6 +49,16 @@ padding: 0;}
 
 
 //menu page//
+
+.category-container {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
 .category-section {
     display: none;
     flex-wrap: wrap;
@@ -66,6 +76,7 @@ padding: 0;}
                 4px 16px 16px rgba(0,0,0,0.11), 
                 5px 32px 32px rgba(0,0,0,0.11);
 }
+
 .category-section p {
     padding-top: 20px;
 }
@@ -81,6 +92,9 @@ padding: 0;}
 .menu-category a {
     text-decoration: none;
 }
+.menu-category a:active {
+    color: red;
+}
 .category-title {
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -93,7 +107,15 @@ padding: 0;}
 
 @media (min-width: $tablet) {
     .starter , .vegan, .burrito, .taco {
-        margin: 2em;
+        margin: 1em;
     }
+}
+@media (min-width: $desktop) {
+    .category-section img:hover {
+        transform: scale(1.16); 
+      }
+      .category-section img {
+        transition: transform .2s;
+      }
 }
 //layout needs to be adjusted
