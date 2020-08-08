@@ -4,7 +4,7 @@
 @use 'mixins' as *;
 
 .wrapper {
-    max-width: 800px;
+    max-width: 1200px;
     background-color: $bgColorWrapper;
     @include mc;
     
