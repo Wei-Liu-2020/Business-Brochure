@@ -2,7 +2,7 @@
 //Main Site Variables
 
 //Colors
-$brandColor:orange;
+$brandColor: rgb(255, 27, 27);
 //Variations of brand color
 //use Sass color functions
 
@@ -12,8 +12,8 @@ $brandColorDark:darken($brandColor, 20);
 
 
 //BG colors
-$bgColorWrapper:lightgrey;
-$bgColorBody: lightgrey;
+$bgColorWrapper:rgb(255, 255, 255);
+$bgColorBody: rgba(241, 184, 60, 0.733);
 
 //Text Colors
 $textColorLight: white;
