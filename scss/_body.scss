@@ -7,7 +7,7 @@ body{
     
 }
 
-main {background-color: #fff;
+main {background-color: #d8c4ae;
 padding: 0;}
 
 .description{
@@ -91,7 +91,7 @@ textarea {
 .category-container {
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: #2e6864;
     margin: 0;
     left: 0;
     right: 0;
@@ -129,6 +129,7 @@ textarea {
 }
 .menu-category a {
     text-decoration: none;
+    color: white;
 }
 .menu-category a:active {
     color: red;
