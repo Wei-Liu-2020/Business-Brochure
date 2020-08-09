@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mexican Restaurant!!!!!!</title>
-    <link rel="stylesheet" href="styles/styles.css">   
+    <link rel="stylesheet" href="styles/styles.css">  
+    
+    
 </head>
 
 <body>
@@ -30,8 +32,29 @@
     
 
 <div class="bannerSection">
-     
-    <img class="foods" src="images/trial1.jpg">
+    <div id="RBSlideshow">
+        <ul>
+          <li><img src="/images/trial1.jpg"></li>
+          <li><img src="/images/trial2.jpg"></li>
+          <li><img src="/images/trial3.jpg"></li>
+        </ul>
+      </div>
+
+      <div id="slideshow">
+        <div id="slides">
+          <div id="prevSlide">
+            <p></p>
+          </div>
+          <div id="currentSlide">
+            <p></p>
+          </div>
+          <div id="nextSlide">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      
+    
     <div class="reservelink"><a href="reservations.html">Reserve Now!</a></div>
     
     
@@ -58,6 +81,10 @@
     <p> © 2020 Coco's. All rights reserved. </p>
 </footer>
 </div><!--end of wrapper-->
-<script src="scripts/scripts.js"></script> 
+    <script src="scripts/jq/jquery.min.js"></script>
+    
+    <script src="scripts/scripts.js"></script>
+	<script src="scripts/RBSlideshow.js"></script> 
+
 </body>
 </html>
