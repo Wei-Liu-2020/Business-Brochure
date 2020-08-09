@@ -97,6 +97,22 @@ textarea {
     right: 0;
     width: 100%;
 }
+.menu-category {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 0 !important;
+    
+}
+.menu-category a {
+    text-decoration: none;
+    color: white;
+}
+.menu-category a:active {
+    color: red;
+}
 .category-section {
     display: none;
     flex-wrap: wrap;
@@ -118,22 +134,7 @@ textarea {
 .category-section p {
     padding-top: 20px;
 }
-.menu-category {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding-left: 0 !important;
-    
-}
-.menu-category a {
-    text-decoration: none;
-    color: white;
-}
-.menu-category a:active {
-    color: red;
-}
+
 .category-title {
     writing-mode: vertical-rl;
     text-orientation: upright;
