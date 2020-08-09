@@ -44,8 +44,19 @@ padding: 0;}
 //reservation page//
 .reserve{
     text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
 }
-
+.reserve h2, p, h3 {
+    text-align: center;
+}
+fieldset {
+    border: 2px ridge gray;
+	box-shadow: 0px 2px 2px gray;
+}
+form input {
+    margin-top: 5px;
+}
 textarea {
     display: block;
     max-width: 400px;
