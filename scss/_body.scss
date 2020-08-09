@@ -46,7 +46,45 @@ padding: 0;}
     text-align: center;
 }
 
+textarea {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    height: 140px;
+    margin-top: 12px;
+    margin-bottom: 1em;
+}
 
+
+.date-time{
+     margin-top: -30px;
+}
+.submit{
+    margin-top: 20px;
+}
+
+@media (min-width: $tablet) {
+    textarea {
+        display: block;
+        max-width: 1000px;
+        width: 100%;
+        height: 140px;
+        margin-top: 12px;
+        margin-bottom: 1em;
+    }
+}
+    
+@media (min-width: $desktop) {
+    textarea {
+        display: block;
+        max-width: 1200px;
+        width: 100%;
+        height: 140px;
+        margin-top: 12px;
+        margin-bottom: 1em;
+    }
+}
+      
 
 //menu page//
 

@@ -31,76 +31,105 @@
 </div>
 <div class="bannerSection">
      
-    <img class="foods" src="images/foods.jpg">
+    <img class="foods" src="images/inside.jpg">
     <!-- Use different picture -->
     
     
 </div>
  <!--end top section-->
 
+ <main>
  <div class="reserve">
-        <h2> Reservations</h2>
+        <h2>Reservations</h2>
         <p>Thank you for visiting website!</p>
         <p>Here is the form to request reservation.Please fill in the following questions.</p>
-        <p>*For dilivery, we only accept within BC.</p>
+        <p>*For dilivery, we only accept within Vancouver. Delivery fee is $7.00.</p>
     <section>
         <form action ="/" method= "post">
-            <h3>Your info</h3>
-            <div class="form-group">
+        <fieldset>
+            <legend><h3>Your info</h3></legend>
+            <div class="form-group1">
                 <label for="firstname">Firstname: </label>
                 <input type="text" id="firstname" name="firstname">
             </div><!-- end form-group -->
 
-            <div class="form-group">
+            <div class="form-group2">
                 <label for="lastname">Lastname: </label>
                 <input type="text" id="lastname" name="lastname">
             </div><!-- end form-group -->
 
-            <div class="form-group">
+            <div class="form-group3">
                 <label for="email">Email: </label>
                 <input type="email" id="email" name="email">
             </div><!-- end form-group -->
 
-            <div class="form-group">
-                <label for="email">Phone number: </label>
-                <input type="email" id="email" name="email">
+            <div class="form-group4">
+                <label for="phone">Phone number: </label>
+                <input type="phone" id="phone" name="phone">
             </div><!-- end form-group -->
 
-            <div class="form-group">
-                <label for="email">Street Adress: </label>
-                <input type="email" id="email" name="email">
+            <div class="form-group5">
+                <label for="addres">Street Adress: </label>
+                <input type="adress" id="address" name="address">
             </div><!-- end form-group -->
 
-            <div class="form-group">
-                <label for="email">City: </label>
-                <input type="email" id="email" name="email">
+            <div class="form-group6">
+                <label for="city">City: </label>
+                <input type="city" id="city" name="city">
             </div><!-- end form-group -->
 
-            <div class="form-group">
-                <label for="email">Postabl Code: </label>
-                <input type="email" id="email" name="email">
+            <div class="form-group7">
+                <label for="post">Postabl Code: </label>
+                <input type="post" id="post" name="post">
             </div><!-- end form-group -->
 
-
-            <div class="form-group reservation-type-group">
-                <h3>Choose an ReservationType</h3>
-                <div class="form-row reservation-type flu">
-                    <input type="checkbox" id="res" name="at[]">
-                    <label for="res">Delivery</label>
+            <legend><h3>Are you a Vegan?</h3></legend>
+            <div class="form-group">
+                <input type="radio" id="veg" name="veg">
+                <label for="del">Yes, I am a Vegan.</label>
+            </div>
+            <div class="form-group">
+                <input type="radio" id="veg" name="veg">
+                <label for="del">No.I am not a Vegan.</label>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend><h3>Choose an ReservationType</h3></legend>
+            <div class="form-group reservation">
+                <div class="form-row reservation-type">
+                    <input type="checkbox" id="del" name="del">
+                    <label for="del">Delivery</label>
                 </div>
-                <div class="form-row reservation-type travel-shots">
-                     <input type="checkbox" id="res" name="at[]">
-                     <label for="res">Pickup</label>
+
+                <div class="form-row reservation-type">
+                     <input type="checkbox" id="pick" name="pick">
+                     <label for="pick">Pickup</label>
+                  
                 </div>
-                <div class="form-row reservation-type prescription-renewal">
-                     <input type="checkbox" id="res" name="at[]">
+
+                <div class="form-row reservation-type">
+                     <input type="checkbox" id="res" name="res">
                      <label for="res">Restaurant</label>
+                    <div class="form-group">
+                        <p>*if choose delivery, please accest this link.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="menu">*if choose pickup, fill in the menu": </label>
+                        <input type="menu" id="menu" name="">
+                    </div>
+                     <div class="form-group">
+                        <label for="number">*if choose restaurant, fill in "Number of people": </label>
+                        <input type="number" id="number" name="number">
+                    </div>
+                    
                 </div>
-           
-            </div><!-- end form-group -->
+      
+            </div><!-- end form-group -->        
+        </fieldset>
 
             <fieldset>
-                <legend>Appointment Date &amp; Time</legend>
+                <legend><h3>Appointment Date &amp; Time</h3></legend>
                 <div class="date-time">
                     <h3>Choose a Date</h3>
                     <div class="form-row month">
@@ -201,23 +230,28 @@
                     </div>
                 </div><!-- end form-group -->
             </fieldset>
+            
+            <fieldset>
+            <legend><h3>Comments</h3></legend>
+            <div class="form">
+            <label for="comments">Please write down comments if you have any request:</label>
+            <textarea name="comments" id="comments"></textarea>
+            </fieldset>
+
             <div class="form-group submit-group">
-                <div class="form-row submit">
+                <div class="submit">
                     <input type="submit" value="Submit">
                 </div>
             </div>
         </form>
     </section>
     
-    </div>
- </div>
-
+    
+</div>
+</main>
 
 <footer>
-    <p> Restaraunt </p>
-    <p> Contact Info </p>
-    <!-- Social Media links
-     -->
+    <p> © 2020 Coco's. All rights reserved. </p>
 </footer>
 </div><!--end of wrapper-->
 <script src="scripts/scripts.js"></script> 
