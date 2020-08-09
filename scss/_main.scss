@@ -4,7 +4,30 @@
 
 main{
     padding: 0 $pad;
+   
     background-color: white;
 
 }
 
+
+.aboutUs h2{ text-align: center;
+    color:#006341;
+
+}
+
+.description h1{
+    text-align: center;
+    color: #006341;
+}
+
+.description h2{
+    color: $brandColor;
+}
+
+
+.description img {
+    width:20%;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
