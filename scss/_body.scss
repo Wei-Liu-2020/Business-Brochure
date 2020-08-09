@@ -2,12 +2,9 @@
 
 @use "variables" as *;
 
-body{
-    background-image: url(/images/taco-background.png);
-    
-}
 
-main {background-color: #d8c4ae;
+
+body {background-color: $bgColorBody;
 padding: 0;}
 
 .description{
@@ -21,19 +18,24 @@ padding: 0;}
 }
 
 .reservelink {
-    border: 3px black solid;
+    border: 4px #CE1126 solid;
     width: 150px;
     text-align: center;
-    background-color:red;
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 
 .reservelink a{
-    color:green;
-    text-transform: uppercase;
+    color: #006341;
+    text-transform: uppercase bold;
     text-decoration: none;
     margin: 0 auto;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -158,3 +160,10 @@ textarea {
       }
 }
 //layout needs to be adjusted
+
+
+
+@media (min-width: $tablet){
+
+
+}
