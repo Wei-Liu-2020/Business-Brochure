@@ -38,4 +38,5 @@ function toggleBurritos(){
    document.getElementById("vegan-section").style.display = "none";
    document.getElementById("burrito-section").style.display = "flex";
 }
+
 document.getElementById("starter-title").click();
