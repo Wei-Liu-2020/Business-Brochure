@@ -7,7 +7,7 @@ body{
     
 }
 
-main {background-color: #fff;
+main {background-color: #d8c4ae;
 padding: 0;}
 
 .description{
@@ -46,14 +46,77 @@ padding: 0;}
     text-align: center;
 }
 
+textarea {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    height: 140px;
+    margin-top: 12px;
+    margin-bottom: 1em;
+}
 
+
+.date-time{
+     margin-top: -30px;
+}
+.submit{
+    margin-top: 20px;
+}
+
+@media (min-width: $tablet) {
+    textarea {
+        display: block;
+        max-width: 1000px;
+        width: 100%;
+        height: 140px;
+        margin-top: 12px;
+        margin-bottom: 1em;
+    }
+}
+    
+@media (min-width: $desktop) {
+    textarea {
+        display: block;
+        max-width: 1200px;
+        width: 100%;
+        height: 140px;
+        margin-top: 12px;
+        margin-bottom: 1em;
+    }
+}
+      
 
 //menu page//
+
+.category-container {
+    position: sticky;
+    top: 0;
+    background-color: #2e6864;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
 .category-section {
     display: none;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: baseline;
     text-align: center;
+    padding: 5px;
+
+}
+.category-section img {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+                1px 2px 2px rgba(0,0,0,0.11), 
+                2px 4px 4px rgba(0,0,0,0.11), 
+                3px 8px 8px rgba(0,0,0,0.11), 
+                4px 16px 16px rgba(0,0,0,0.11), 
+                5px 32px 32px rgba(0,0,0,0.11);
+}
+
+.category-section p {
+    padding-top: 20px;
 }
 .menu-category {
     display: flex;
@@ -66,15 +129,32 @@ padding: 0;}
 }
 .menu-category a {
     text-decoration: none;
+    color: white;
+}
+.menu-category a:active {
+    color: red;
 }
 .category-title {
     writing-mode: vertical-rl;
     text-orientation: upright;
     letter-spacing: -5px;
 }
+.starter, .vegan, .burrito, .taco {
+    margin: auto 1em;
+    flex: 1 1 200px;
+}
+
 @media (min-width: $tablet) {
-    .category-section{
-        flex-wrap: nowrap;
+    .starter , .vegan, .burrito, .taco {
+        margin: 1em;
     }
+}
+@media (min-width: $desktop) {
+    .category-section img:hover {
+        transform: scale(1.16); 
+      }
+      .category-section img {
+        transition: transform .2s;
+      }
 }
 //layout needs to be adjusted
