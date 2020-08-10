@@ -28,16 +28,19 @@ main{
 .description img {
     width:20%;
     margin-left: auto;
-  margin-right: auto;
-  display: block;
+    margin-right: auto;
+    display: block;
 }
 
 .maps h2 {
     text-align: center;
     color:#006341;
 }
-.vancouverMap {
-    
+
+
+// Did not change ID as it breaks the CSS :(
+#wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3 {
+    display: block;
     margin: 0 auto;
-    
+
 }
