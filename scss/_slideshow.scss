@@ -5,35 +5,44 @@ body {
 	margin: 0px;
 
 }
-#RBSlideshow {
+#RBSlideshow, #slideshow .btn{
 
 	display: none;
 
 }
 
 main ul{
-	display:none;
+	display: none;
 }
 
+#bannerImage {
+	position: relative;
+	width: 100%;
+	max-width: 800px;
+}
+#bannerImage img {
+	width: 100%;
+	height: auto;
+}
 
-.reservelink {
-    
-    width: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+#bannerImage .btn {  
     position: absolute;
-    top:50%;
-	left:50%;
-	transform: translate(-50%, -50%);
-   	
-    background-color:#ce1127e8 ;
-    box-shadow: 2px 3px 4px black;
-    
-}
-.reservelink a{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ce1127e8;
     color: white;
-    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center; 
+}
+.btn a {
+	text-decoration: none;
+	color: white;
     margin: 0 auto;
     padding: 0;
     font-family:Arial, Helvetica, sans-serif ;
@@ -45,33 +54,43 @@ main ul{
 
 @media (min-width:700px) {
 
-#bannerimage{display: none;}
+#bannerImage{display: none;}
+#slideshow .btn {
+	display: block;
+}
 
-.reservelink {
-    
-    width: 150px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: center;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    background-color:#ce1127e8 ;
-    box-shadow: 2px 3px 4px black;
-    
+#slideshow {
+	position: relative;
+	width: 100%;
 }
 
 
-.reservelink a{
-    color: white;
+#slideshow .btn {
     
-    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ce1127e8;
+    color: white;
+    font-size: 16px;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center; 
+}
+.btn a {
+	text-decoration: none;
+	color: white;
     margin: 0 auto;
     padding: 0;
     font-family:Arial, Helvetica, sans-serif ;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
+    
+
 }
 
 #slideshow {
