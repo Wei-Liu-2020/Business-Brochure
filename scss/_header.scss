@@ -33,6 +33,10 @@ header img{
     border: 0;
 
 }
+#burger {
+    text-decoration: none;
+    color: #006341;
+}
 .nav-desktop {
     display:none;
 
@@ -52,10 +56,6 @@ header img{
     }
     header img {
         width: 100%;
-    }
-    .hamburger {
-        text-decoration: none;
-        color: black;
     }
     
     .nav-desktop a{
