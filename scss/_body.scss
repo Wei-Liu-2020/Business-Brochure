@@ -90,15 +90,25 @@ textarea {
       
 
 //menu page//
-
+.menu-banner {
+    margin: 0 auto;
+    width: 100%;
+}
+.menu-banner img {
+    filter: brightness(90%), drop-shadow(5px 5px 5px gray);
+}
 .category-container {
     position: sticky;
     top: 0;
+    padding: 5px;
     background-color: #2e6864;
     margin: 0;
+    margin-top: -5px;
     left: 0;
     right: 0;
     width: 100%;
+    opacity: 90%;
+    box-shadow: 3px 3px 5px gray;
 }
 .category-section {
     display: none;
@@ -106,7 +116,6 @@ textarea {
     justify-content: space-evenly;
     align-items: baseline;
     text-align: center;
-    padding: 5px;
 
 }
 .category-section img {
@@ -128,7 +137,7 @@ textarea {
     list-style: none;
     font-size: 1.5em;
     font-weight: bold;
-    padding-left: 0 !important;
+    padding-left: 0;
     
 }
 .menu-category a {
