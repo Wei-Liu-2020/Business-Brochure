@@ -56,29 +56,35 @@
         <form action ="/" method= "post">
         <fieldset id="info-section">
             <legend><h3>Your info</h3></legend>
-            <div class="form-group1">
-                <label for="firstname">Firstname: </label>
-                <input type="text" id="firstname" name="firstname">
-            </div><!-- end form-group -->
+            <div id="info-section">
+                <div id="name-section">
+                    <div class="form-group1">
+                        <label for="firstname">Firstname: </label>
+                        <input type="text" id="firstname" name="firstname">
+                    </div><!-- end form-group -->
+        
+                    <div class="form-group2">
+                        <label for="lastname">Lastname: </label>
+                        <input type="text" id="lastname" name="lastname">
+                    </div>
+                </div>
+            
+                <div id="contact-section">
+                    <div class="form-group3">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email">
+                    </div><!-- end form-group -->
+        
+                    <div class="form-group4">
+                        <label for="phone">Phone: </label>
+                        <input type="phone" id="phone" name="phone">
+                    </div>
+                </div>
+            </div>
 
-            <div class="form-group2">
-                <label for="lastname">Lastname: </label>
-                <input type="text" id="lastname" name="lastname">
-            </div><!-- end form-group -->
-
-            <div class="form-group3">
-                <label for="email">Email: </label>
-                <input type="email" id="email" name="email">
-            </div><!-- end form-group -->
-
-            <div class="form-group4">
-                <label for="phone">Phone: </label>
-                <input type="phone" id="phone" name="phone">
-            </div><!-- end form-group -->
-
-
-
-            <legend><h3>Please choose a reservation type</h3></legend>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Reservation type</h3></legend>
             <div class="form-group">
                 <input type="radio" id="veg" name="veg">
                 <label for="del">Self Pickup</label>
@@ -89,7 +95,7 @@
             </div>
         </fieldset>
         <fieldset>
-            <legend><h3>Do you have any allergies?</h3></legend>
+            <legend><h3>Any allergies?</h3></legend>
             <div class="form-group reservation">
                 <div class="form-row reservation-type">
                     <input type="checkbox" id="del" name="del">
@@ -114,34 +120,9 @@
             </div><!-- end form-group -->        
         </fieldset>
         
-        <fieldset>
-            <legend><h3>Do you have any allergies?</h3></legend>
-            <div class="form-group reservation">
-                <div class="form-row reservation-type">
-                    <input type="checkbox" id="del" name="del">
-                    <label for="del">Gluten</label>
-                </div>
-
-                <div class="form-row reservation-type">
-                     <input type="checkbox" id="pick" name="pick">
-                     <label for="pick">Lactose</label>
-                  
-                </div>
-
-                <div class="form-row reservation-type">
-                     <input type="checkbox" id="res" name="res">
-                     <label for="res">Egg</label>                    
-                </div>
-                <div class="form-row reservation-type">
-                    <label for="other-allergies">Other allergies: </label>
-                    <input type="text" id="allergy" name="allergy">
-                </div>
-      
-            </div><!-- end form-group -->        
-        </fieldset>
 
             <fieldset>
-                <legend><h3>When will you arrive?</h3></legend>
+                <legend><h3>Arriving at...</h3></legend>
                 <div class="date-time">
                     <h3>Date</h3>
                     <div class="form-row month">
