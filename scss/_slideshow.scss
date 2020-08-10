@@ -79,8 +79,18 @@ main ul{
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    text-align: center; 
+	text-align: center; 
+	transition: all 0.4s ease 0s;
 }
+
+#slideshow .btn:hover {
+	color: #ffffff !important;
+	background: #f6b93b;
+	border-color: #f6b93b !important;
+	transition: all 0.4s ease 0s;
+}
+
+
 .btn a {
 	text-decoration: none;
 	color: white;
@@ -165,4 +175,6 @@ main ul{
 	margin: 5px;
 
 }
+
+
 }

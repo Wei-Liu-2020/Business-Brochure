@@ -10,5 +10,24 @@
     
 }
 
+.wrapper .btn{
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+	color: white;
+    margin: 0 auto;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.wrapper .btn:hover {
+    color: #ffffff !important;
+	background: #f6b93b;
+	border-color: #f6b93b !important;
+	transition: all 0.4s ease 0s;
+}
+
 
 
