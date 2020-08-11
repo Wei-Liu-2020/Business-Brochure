@@ -4,11 +4,11 @@
 @use 'mixins' as *; 
 
 header {
-    background-color: white;
     padding: 20px 10px;
     display: flex;
     align-items:center;
     justify-content: space-between;
+    background-color: white;
     
 } 
 
@@ -33,7 +33,7 @@ header img{
     border: 0;
 
 }
-#burger {
+.hamburger {
     text-decoration: none;
     color: #006341;
 }

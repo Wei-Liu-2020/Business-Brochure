@@ -32,7 +32,7 @@ fieldset {
     border: 2px ridge gray;
 	box-shadow: 0px 2px 2px gray;
 }
-#info-section {
+#info-subsection {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -52,10 +52,16 @@ textarea {
     margin-top: 12px;
     margin-bottom: 1em;
 }
+.date-time-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
-
-.date-time{
+.date-time, .time-group {
      margin-top: -30px;
+     display: table;
+     padding-top: 20px;
 }
 .submit{
     margin-top: 20px;
